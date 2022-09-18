@@ -1,0 +1,43 @@
+{
+  "name": "slackbots-ms",
+  "version": "1.0.0",
+  "description": "New Slackbots API utilizing rm.connect as opposed to rm.start",
+  "main": "index.js",
+  "author": "Adam Wolfson <adam@adamwolfson.com>",
+  "homepage": "https://github.com/awolfson166/slack-bots-ms",
+  "bugs": {
+    "url": "https://github.com/awolfson166/slack-bots-ms/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://awolfson166/slack-bots-ms.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint index.js && ./node_modules/jscs/bin/jscs index.js && ./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "extend": "^3.0.2",
+    "lodash": "^4.17.15",
+    "request": "^2.88.0",
+    "vow": "^0.4.20",
+    "ws": "^7.1.1",
+    "ws-heartbeat": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.10.2",
+    "mocha": "^6.2.0",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "slack",
+    "slack",
+    "api"
+  ]
+}
