@@ -78,8 +78,6 @@ bot.on('start', function() {
     bot.postMessageToGroup('private_group', 'meow!', params); 
 });
 ```
-PROFIT!
-<img src="http://i.imgur.com/hqzTXHm.png" />
 
 ```js
 /**
