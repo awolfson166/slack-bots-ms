@@ -1,6 +1,6 @@
 {
   "name": "slack-bots-ms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "New Slackbots API utilizing rm.connect as opposed to rm.start",
   "main": "index.js",
   "author": "Adam Wolfson <adam@adamwolfson.com>",
